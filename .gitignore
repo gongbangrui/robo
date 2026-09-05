@@ -1,0 +1,81 @@
+# ---- Build outputs ----
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.axf
+
+# ---- Keil / MDK-ARM ----
+*.bak
+*.lst
+*.lnp
+*.obj
+*.tmp
+*.TMP
+*.__i
+*.crf
+*.o
+*.d
+*.dep
+*.uvopt
+*.htm
+*.hsc
+~*
+*uvgui*
+*.uvoptx
+*.sct
+*.lnk
+*.scvd
+*.iex
+*.mxproject
+*.dbgconf
+*JLinkLog.txt
+Listings/
+Objects/
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.ini
+
+# ---- Claude Code / AI tools ----
+.claude/
+.claude/**
+# Prevent accidental commits of conversation transcripts or memory files
+*.claude-memory
+CLAUDE.local.md
+
+# ---- Obsidian ----
+.obsidian/
+docs/.obsidian/
+
+# ---- OS generated ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Secrets / Credentials ----
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.secret
+*.credentials
+*.token
+
+# ---- Logs ----
+*.log
+
+# ---- Python (if any tooling) ----
+__pycache__/
+*.pyc
+
+# ---- OpenOCD / debug ----
+*.cfg.bak
+build_cmake/
